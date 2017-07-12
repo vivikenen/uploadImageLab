@@ -1,0 +1,16 @@
+{
+  "name": "image_uploader",
+  "version": "0.0.1",
+  "description": "image_uploader",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "multer": "^1.3.0",
+    "mime": "^1.3.6",
+    "unzip": "^0.1.11"
+  },
+  "author": {
+    "name": "vivienne"
+  }
+}
