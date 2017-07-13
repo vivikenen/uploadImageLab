@@ -30,6 +30,10 @@ app.get("/", function (req, res) {
     res.sendFile(__dirname + "/index.html");
 });
 
+
+app.set('View engine', 'ejs');
+
+
 var filePath;
 var filePaths = [];
 var list;
@@ -46,8 +50,8 @@ app.post("/upload", function (req, res) {
                     files.forEach(file => {
                         filePaths.push('./upload/unzip/'+file);
                     });
-                    
-                    res.send(filePaths);
+                    // res.send(filePaths);
+                    res.render('links.ejs', { filePaths: filePaths})
                 })
                         
 
