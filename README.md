@@ -7,6 +7,7 @@ A file upload server allows user to upload images and response with the link to 
     multer: "^1.3.0",
     mime: "^1.3.6",
     unzip: "^0.1.11"
+    "ejs": "^2.5.6"
 
 # run command
     node app.js
